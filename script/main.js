@@ -178,7 +178,7 @@ const animationTimeline = () => {
         "+=1.5"
     )
     .staggerFromTo(
-        ".baloons img",
+        ".flowers img",
         2.5, {
             opacity: 0.9,
             y: 1400,
@@ -199,12 +199,6 @@ const animationTimeline = () => {
         },
         "-=2"
     )
-    .from(".hat", 0.5, {
-        x: -100,
-        y: 350,
-        rotation: -180,
-        opacity: 0,
-    })
     .staggerFrom(
         ".wish-bucin span",
         0.7, {
